@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Laundry Service</h1>
+        <!-- Embedding the Google Form -->
+        <iframe id="googleForm" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+
+    <script>
+        // Dynamically set the src attribute of the iframe
+        document.getElementById('googleForm').src = 'https://docs.google.com/forms/d/e/1FAIpQLSdh4R8vlrfhOe6nqtWz4H5dO6UN9bFJlgOoZyR539kB7ahQRw/viewform?embedded=true';
+    </script>
+</body>
+</html>
